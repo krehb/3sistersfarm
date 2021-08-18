@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  font-family: 'Josefin Sans', cursive;
+}
+
+.store {
+  background-image: url(./pics/sheep.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  margin: 10px 40px 40px 40px
+}
+.deck {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 536px;
+  height: 300px;
+  padding: 23px;
+}
+
+@media screen and (max-width: 500px) {
+  .video {
+    width: 330px;
+    
+  }
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: none;
+}
